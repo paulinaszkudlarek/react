@@ -8,7 +8,7 @@ import Creator from '../Creator/Creator';
 
 class App extends React.Component {
   state = {
-    lists: this.props.lists || [],
+    lists: this.props.lists || [listData],
   }
 
   static propTypes = {
@@ -45,8 +45,8 @@ class App extends React.Component {
         <h1 className={styles.title}>{pageContents.title}</h1>
         <h1 className={styles.subtitle}>{pageContents.subtitle}</h1>
         <div className={styles.lists}>
-          {this.state.lists.map(({key, ...listData}) => (
-            <List key={key} {...listData} />
+          {this.state.lists.map(({key, ...listProps}) => (
+            <List key={key} {...listProps} />
           ))}        
         </div>
         <div className={styles.Creator}>
