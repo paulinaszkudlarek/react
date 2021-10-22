@@ -32,11 +32,11 @@ class App extends React.Component {
             title,
             description: listData.description,
             image: listData.image,
-            lists: []
-          }
-        ]
+            lists: [],
+          },
+        ],
       }
-    ))
+    ));
   }
 
   render() {
@@ -53,7 +53,7 @@ class App extends React.Component {
           <Creator text={settings.listCreatorText} action={title => this.addList(title)}/>
         </div>
       </main>
-    )
+    );
   }
 }
 

@@ -14,6 +14,8 @@ class Column extends React.Component {
 
   static propTypes = {
     cards: PropTypes.array,
+    icon: PropTypes.string,
+    title: PropTypes.string,
   }
 
   addCard(title){
@@ -23,9 +25,9 @@ class Column extends React.Component {
           ...state.cards,
           {
             key: state.cards.length ? state.cards[state.cards.length-1].key+1 : 0,
-            title
-          }
-        ]
+            title,
+          },
+        ],
       }
     ));
   }
@@ -44,7 +46,7 @@ class Column extends React.Component {
         </div>
 
       </secion>
-    )
+    );
   }
 }
 
