@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "v14.16.1"
+  },
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
@@ -29,10 +32,7 @@
     "react-html-parser": "^2.0.2",
     "react-redux": "^7.0.1",
     "redux": "^4.0.1",
-    "shortid": "^2.2.16",
-    "engines": {
-      "node": "v14.16.1"
-    }
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
