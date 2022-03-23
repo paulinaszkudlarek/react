@@ -8,7 +8,7 @@ import styles from './FAQ.scss';
 
 const FAQ = (props) => (
   <Container>
-    <Hero titleText='FAQ' src={props.src} ></Hero>
+    <Hero titleText={settings.faq.title} src={props.src} ></Hero>
     <Faq className={styles} config={config} data={settings.faq.list}></Faq>
   </Container>
 );
