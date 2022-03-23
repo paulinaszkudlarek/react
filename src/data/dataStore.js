@@ -10,8 +10,38 @@ export const settings = {
     defaultText: 'Search...',
     icon: 'search',
   },
+  logo: {
+    icon: 'cat',
+  },
+  info: {
+
+  },
+  faq: {
+    list: {
+      title: 'Frequently asked question',
+      rows: [
+        {
+          title: 'Lorem ipsum?',
+          content: 'I am a cat.',
+        },
+        {
+          title: 'Dolor sit?',
+          content: 'I like to sleep.',
+        },
+        {
+          title: 'Amet?',
+          content: 'I like to eat fish.',
+        },
+        {
+          title: 'Consectetur adipiscing?',
+          content: 'I like to smell catnip',
+        },
+      ],
+    },
+  },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  defaultHeroImage: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
 };
 
 export const pageContents = {
