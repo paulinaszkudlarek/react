@@ -23,24 +23,20 @@ export const settings = {
       title: 'Frequently asked question',
       rows: [
         {
-          key: 1,
-          question: 'Lorem ipsum?',
-          answer: 'I am a cat.',
+          title: 'Lorem ipsum?',
+          content: 'I am a cat.',
         },
         {
-          key: 2,
-          question: 'Dolor sit?',
-          answer: 'I like to sleep.',
+          title: 'Dolor sit?',
+          content: 'I like to sleep.',
         },
         {
-          key: 3,
-          question: 'Amet?',
-          answer: 'I like to eat fish.',
+          title: 'Amet?',
+          content: 'I like to eat fish.',
         },
         {
-          key: 4,
-          question: 'Consectetur adipiscing?',
-          answer: 'I like to smell catnip',
+          title: 'Consectetur adipiscing?',
+          content: 'I like to smell catnip',
         },
       ],
     },
@@ -113,18 +109,6 @@ const lists = [
     id: 'list-1',
     title: 'Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
-    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
-  },
-  {
-    id: 'list-2',
-    title: 'My books',
-    description: 'Books I have read',
-    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
-  },
-  {
-    id: 'list-3',
-    title: 'My diet',
-    description: 'Healthy food I should eat',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
 ];
