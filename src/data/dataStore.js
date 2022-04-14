@@ -13,34 +13,6 @@ export const settings = {
   logo: {
     icon: 'cat',
   },
-  info: {
-    title: 'Info',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  },
-  faq: {
-    title: 'FAQ',
-    list: {
-      title: 'Frequently asked question',
-      rows: [
-        {
-          title: 'Lorem ipsum?',
-          content: 'I am a cat.',
-        },
-        {
-          title: 'Dolor sit?',
-          content: 'I like to sleep.',
-        },
-        {
-          title: 'Amet?',
-          content: 'I like to eat fish.',
-        },
-        {
-          title: 'Consectetur adipiscing?',
-          content: 'I like to smell catnip',
-        },
-      ],
-    },
-  },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
   defaultHeroImage: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
@@ -49,6 +21,40 @@ export const settings = {
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
+};
+
+export const info = {
+  title: 'Info',
+  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+};
+
+export const faq = {
+  title: 'FAQ',
+  list: {
+    title: 'Frequently asked question',
+    rows: [
+      {
+        key: 0,
+        title: 'Lorem ipsum?',
+        content: 'I am a cat.',
+      },
+      {
+        key: 1,
+        title: 'Dolor sit?',
+        content: 'I like to sleep.',
+      },
+      {
+        key: 2,
+        title: 'Amet?',
+        content: 'I like to eat fish.',
+      },
+      {
+        key: 3,
+        title: 'Consectetur adipiscing?',
+        content: 'I like to smell catnip',
+      },
+    ],
+  },
 };
 
 export const listData = {
