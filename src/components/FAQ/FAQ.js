@@ -1,5 +1,5 @@
 import React from 'react';
-import { settings } from '../../data/dataStore';
+import { settings, faq } from '../../data/dataStore';
 import Container from '../Container/Container';
 import Hero from '../Hero/Hero';
 import PropTypes from 'prop-types';
@@ -7,10 +7,10 @@ import { Accordion } from 'react-bootstrap';
 
 const FAQ = () => (
   <Container>
-    <Hero titleText={settings.faq.title} src={settings.defaultHeroImage} ></Hero>
+    <Hero titleText={faq.title} src={settings.defaultHeroImage} ></Hero>
     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
+        <Accordion.Header>{faq.list.rows.title}</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
